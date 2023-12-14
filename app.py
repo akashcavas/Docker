@@ -1,5 +1,7 @@
 from flask import Flask 
 from pandas import Pandas 
+import pandas as pd 
+print("Pandas dispo")
 app = Flask(__name__)
 @app.route('/')
 def hello_world():
